@@ -11,7 +11,9 @@ body {
   background-color: var(--thoda-kam-white);
   justify-content: center;
   align-items: center;
-  margin-left: 2.5rem;
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
 }
 span{
   margin-left: 0.2rem;
@@ -93,11 +95,10 @@ h2{
 }
 
 .bundle-of-tables{
-  width: 25.5rem;
+  margin-right: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: #0473A3; */
   gap: 2rem;
 }
 
